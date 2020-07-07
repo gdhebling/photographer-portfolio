@@ -3,3 +3,6 @@ https://no.pinterest.com/guilhermedurso/web-design/
 
 Tips on SASS:
 https://www.sitepoint.com/8-tips-help-get-best-sass/
+
+Font Pair:
+https://fontpair.co/
