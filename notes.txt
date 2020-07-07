@@ -6,3 +6,6 @@ https://www.sitepoint.com/8-tips-help-get-best-sass/
 
 Font Pair:
 https://fontpair.co/
+
+From design to code:
+https://youtu.be/aZgwRaVg9zY
