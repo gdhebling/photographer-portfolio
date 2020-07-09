@@ -28,8 +28,17 @@ a:visited {
   color: black;
 }
 
+h1 {
+  font-family: var(--main-font);
+}
+
 img {
   max-width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  margin: 2rem 0;
 }
 
 /* Header 
@@ -39,7 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 10%;
+  padding: 1rem 10%;
   width: 100%;
 }
 
@@ -57,7 +66,7 @@ header {
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 2rem;
   text-transform: uppercase;
   font-weight: 700;
   font-size: .875rem;
@@ -108,7 +117,7 @@ header {
 /* Body 
 =============== */
 
-/* Hero Image and Text */
+/* === Hero === */
 
 .hero-image {
   height: 90vh;
@@ -134,10 +143,18 @@ header {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
-  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.75rem;
 }
 
 .hero-text h2 {
   font-size: 1rem;
+}
+
+/* === Work === */
+
+.photography-segments {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 2rem;
 }
