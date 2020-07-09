@@ -13,7 +13,7 @@
   --main-font: 'Poppins', sans-serif;
   --body-font: 'Open Sans', sans-serif;
   --body-font-color: #000000;
-  --secondary-font-color: #002B44;
+  --dark-color: #002B44;
 }
 
 html {
@@ -38,7 +38,7 @@ img {
 
 .section-title {
   text-align: center;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
 }
 
 /* Header 
@@ -120,8 +120,9 @@ header {
 /* === Hero === */
 
 .hero-image {
-  height: 90vh;
+  height: 100vh;
   background-image: url(../img/hero-image.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -140,21 +141,90 @@ header {
 .hero-text h1,
 .hero-text h2 {
   font-family: var(--main-font);
+  margin: 1rem;
 }
 
 .hero-text h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.75rem;
 }
 
 .hero-text h2 {
   font-size: 1rem;
+  letter-spacing: 0.25rem;
 }
 
 /* === Work === */
 
 .photography-segments {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem;
+  /* padding: 1rem; */
+}
+
+.photography-segments img {
+  object-fit: cover;
+}
+
+.card {
+  margin: auto;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* === Contact === */
+
+
+
+
+/* === Footer === */
+
+footer {
+  background-color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 10%;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+footer .social-media__item .fa-facebook-f,
+footer .social-media__item .fa-instagram,
+footer .social-media__item .fa-youtube {
+  color: #fff;
+  margin: 1rem 0;
+}
+
+/* Media Queries
+=============== */
+
+@media (max-width: 450px) {
+
+  .hero-text h1,
+  .hero-text h2 {
+    margin: 2rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .hero-text h2 {
+    font-size: 0.875rem;
+  }
+
 }
