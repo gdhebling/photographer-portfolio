@@ -9,3 +9,10 @@ https://fontpair.co/
 
 From design to code:
 https://youtu.be/aZgwRaVg9zY
+
+
+Image with Height and Width on HTML:
+<img src="./img/architecture-photography.jpg" alt="" class="card__image" width="300" height="450">
+
+Collapse Nav Bar
+https://www.youtube.com/watch?reload=9&v=gXkqy0b4M5g

@@ -1,6 +1,6 @@
 /* Variables 
 =============== */
-$mainFont: 'Poppins',
+$mainFont: 'Merriweather Sans',
 sans-serif;
 $bodyFont: 'Open Sans',
 sans-serif;
@@ -26,13 +26,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 a,
 a:visited {
     text-decoration: none;
-    color: black;
 }
 
-h1 {
+h1,
+h2 {
     font-family: $mainFont;
 }
 
@@ -50,22 +55,28 @@ img {
 
 header {
     display: flex;
+    position: absolute;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 10%;
     width: 100%;
+    background-color: #fff;
+
+    min-height: 8vh;
 }
 
 .logo {
     cursor: pointer;
+    font-size: .875rem;
     font-family: $mainFont;
+    color: #000;
     text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 0.2rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
 }
 
 .nav__links {
-    list-style: none;
 
     li {
         display: inline-block;
@@ -77,6 +88,8 @@ header {
 
         a {
             transition: all 0.3s ease 0s;
+            color: #000;
+
         }
 
         a:hover {
@@ -93,9 +106,11 @@ header {
     .fa-facebook-f,
     .fa-instagram,
     .fa-youtube {
+        font-size: .875rem;
         display: inline-block;
         padding: 0 .5rem;
         transition: all 0.3s ease 0s;
+        color: #000;
     }
 
     .fa-facebook-f:hover {
@@ -117,17 +132,48 @@ header {
     }
 }
 
+/* Burger Menu
+=============== */
+
+// .burger {
+//     display: none;
+//     cursor: pointer;
+
+//     div {
+//         width: 25px;
+//         height: 2px;
+//         background-color: rgb(226, 226, 226);
+//         margin: 5px;
+//         transition: all 0.3s ease;
+//     }
+
+
+// }
+
+// @media screen and (max-width: 768px) {
+
+//     .nav__links {
+//         position: absolute;
+//         right: 0px;
+//         height: 92vh;
+//     }
+// }
+
+
 /* Body 
 =============== */
 
 /* === Hero === */
 
 .hero-image {
-    height: 100vh;
-    background-image: url(../img/hero-image.jpg);
-    background-position: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(../img/hero-image.jpg);
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
+
+
+    height: 100vh;
     position: relative;
 }
 
@@ -147,8 +193,9 @@ header {
     }
 
     h1 {
-        font-size: 1.5rem;
-        letter-spacing: 0.75rem;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 0.25rem;
     }
 
     h2 {
@@ -159,12 +206,23 @@ header {
 
 /* === Work === */
 
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
 .photography-segments {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 1rem;
-    margin: 1rem;
-    /* padding: 1rem; */
+    // display: grid;
+    // align-items: center;
+    // grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    // grid-gap: 1rem;
+    // margin: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     img {
         object-fit: cover;
@@ -218,7 +276,13 @@ footer {
 /* Media Queries
 =============== */
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
+
+
+
+    // .nav__links {
+    //     display: none;
+    // }
 
     .hero-text h1,
     .hero-text h2 {

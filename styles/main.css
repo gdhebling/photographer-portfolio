@@ -17,14 +17,19 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+}
+
 a,
 a:visited {
   text-decoration: none;
-  color: black;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
+h1,
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 img {
@@ -42,6 +47,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  z-index: 1;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -50,18 +57,18 @@ header {
           align-items: center;
   padding: 1rem 10%;
   width: 100%;
+  background-color: #fff;
+  min-height: 8vh;
 }
 
 .logo {
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-size: .875rem;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #000;
   text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 0.2rem;
-}
-
-.nav__links {
-  list-style: none;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
 }
 
 .nav__links li {
@@ -76,6 +83,7 @@ header {
 .nav__links li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  color: #000;
 }
 
 .nav__links li a:hover {
@@ -95,10 +103,12 @@ header {
 .social-media .fa-facebook-f,
 .social-media .fa-instagram,
 .social-media .fa-youtube {
+  font-size: .875rem;
   display: inline-block;
   padding: 0 .5rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  color: #000;
 }
 
 .social-media .fa-facebook-f:hover {
@@ -117,15 +127,18 @@ header {
   color: #C31A1E;
 }
 
+/* Burger Menu
+=============== */
 /* Body 
 =============== */
 /* === Hero === */
 .hero-image {
-  height: 100vh;
-  background-image: url(../img/hero-image.jpg);
-  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.1))), url(../img/hero-image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(../img/hero-image.jpg);
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  height: 100vh;
   position: relative;
 }
 
@@ -142,13 +155,14 @@ header {
 
 .hero-text h1,
 .hero-text h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   margin: 1rem;
 }
 
 .hero-text h1 {
-  font-size: 1.5rem;
-  letter-spacing: 0.75rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.25rem;
 }
 
 .hero-text h2 {
@@ -157,14 +171,32 @@ header {
 }
 
 /* === Work === */
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .photography-segments {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1rem;
-  margin: 1rem;
-  /* padding: 1rem; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .photography-segments img {
@@ -219,7 +251,7 @@ footer .social-media__item .fa-youtube {
 
 /* Media Queries
 =============== */
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .hero-text h1,
   .hero-text h2 {
     margin: 2rem 0;
