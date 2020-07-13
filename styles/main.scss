@@ -8,8 +8,6 @@ $bodyFontColor: #000000;
 $darkColor: #002B44;
 $accentColor: #0088a9;
 
-
-
 /* Global Styles 
 =============== */
 
@@ -22,12 +20,12 @@ $accentColor: #0088a9;
 }
 
 html {
-    font-family: $bodyFont;
-    color: $bodyFontColor;
     scroll-behavior: smooth;
 }
 
 body {
+    font-family: $bodyFont;
+    color: $bodyFontColor;
     width: 100%;
     height: 100vh;
 }
@@ -38,7 +36,8 @@ a:visited {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: $mainFont;
 }
 
@@ -47,6 +46,9 @@ img {
 }
 
 .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
     margin: 2.5rem 0;
 }
@@ -65,82 +67,84 @@ header {
     background-color: #fff;
 
     min-height: 8vh;
-}
 
-.logo {
-    cursor: pointer;
-    font-size: .875rem;
-    font-family: $mainFont;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 0.1rem;
-
-    &:focus {
-        outline: none;
-        color: $accentColor;
-    }
-}
-
-.nav__links {
-
-    li {
-        display: inline-block;
-        padding: 0 2rem;
-        text-transform: uppercase;
-        font-weight: 700;
+    .logo {
+        cursor: pointer;
         font-size: .875rem;
-        padding: 0 1.5rem;
+        font-family: $mainFont;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.1rem;
 
-        a {
-            transition: all 0.3s ease 0s;
-            color: #000;
+        &:focus {
+            outline: none;
+            color: $accentColor;
+        }
+    }
 
-            &:hover {
-                color: $accentColor;
-            }
+    .nav__links {
 
-            &:focus {
-                outline: none;
-                color: $accentColor;
+        li {
+            display: inline-block;
+            padding: 0 2rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: .875rem;
+            padding: 0 1.5rem;
+
+            a {
+                transition: all 0.3s ease 0s;
+                color: #000;
+
+                &:hover {
+                    color: $accentColor;
+                }
+
+                &:focus {
+                    outline: none;
+                    color: $accentColor;
+                }
             }
         }
     }
+
+    .social-media {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        .fa-facebook-f,
+        .fa-instagram,
+        .fa-youtube {
+            font-size: .875rem;
+            display: inline-block;
+            padding: 0 .5rem;
+            transition: all 0.3s ease 0s;
+            color: #000;
+        }
+
+        .fa-facebook-f:hover {
+            color: #1877f2;
+        }
+
+        .fa-instagram:hover {
+            color: transparent;
+            background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .fa-youtube:hover {
+            color: #C31A1E;
+        }
+    }
+
 }
 
-.social-media {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-
-    .fa-facebook-f,
-    .fa-instagram,
-    .fa-youtube {
-        font-size: .875rem;
-        display: inline-block;
-        padding: 0 .5rem;
-        transition: all 0.3s ease 0s;
-        color: #000;
-    }
-
-    .fa-facebook-f:hover {
-        color: #1877f2;
-    }
-
-    .fa-instagram:hover {
-        color: transparent;
-        background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background-clip: text;
-        -webkit-background-clip: text;
-    }
-
-    .fa-youtube:hover {
-        color: #C31A1E;
-    }
-}
 
 /* Burger Menu
 =============== */
@@ -187,36 +191,34 @@ header {
 
 .hero-text {
     position: absolute;
-    transform: translate(-50%, -50%);
-
-    text-align: center;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
 
     h1,
     h2 {
         text-transform: uppercase;
-
         font-family: $mainFont;
         margin: 1rem;
     }
 
     h1 {
         font-size: 2rem;
-        font-weight: 800;
+        font-weight: 900;
         letter-spacing: 0.25rem;
     }
 
     h2 {
         font-size: 1rem;
-        letter-spacing: 0.25rem;
+        letter-spacing: 0.1rem;
     }
 }
 
-/* === Work === */
+/* === Portfolio === */
 
-.work {
+.portfolio {
     display: flex;
     flex-direction: column;
 }
@@ -266,11 +268,38 @@ footer {
         margin: 1rem 0;
     }
 
-    .social-media__item .fa-facebook-f,
-    .social-media__item .fa-instagram,
-    .social-media__item .fa-youtube {
-        color: #fff;
-        margin: 1rem 0;
+    .social-media {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        .fa-facebook-f,
+        .fa-instagram,
+        .fa-youtube {
+            font-size: .875rem;
+            display: inline-block;
+            padding: 0 .5rem;
+            transition: all 0.3s ease 0s;
+            color: #fff;
+        }
+
+        .fa-facebook-f:hover {
+            color: #1877f2;
+        }
+
+        .fa-instagram:hover {
+            color: transparent;
+            background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .fa-youtube:hover {
+            color: #C31A1E;
+        }
     }
 
 }
