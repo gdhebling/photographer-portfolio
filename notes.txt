@@ -1,9 +1,8 @@
 To do:
 
 - In Home:
-    - Add Sections in Home
-        - About
-        - Contact
+    Form:
+    - Create Form Processing (Back End)
 
 - Create Pages for:
     - Portfolio
