@@ -289,10 +289,7 @@ header .social-media .fa-youtube:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: left;
-}
-
-.about-content .about-photographer-text span {
-  margin: 0.2rem 0;
+  line-height: 2rem;
 }
 
 /* === Contact === */

@@ -283,10 +283,9 @@ header {
     .about-photographer-text {
         flex-direction: column;
         text-align: left;
+        line-height: 2rem;
 
-        span {
-            margin: 0.2rem 0;
-        }
+
     }
 }
 
