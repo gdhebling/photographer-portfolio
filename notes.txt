@@ -1,6 +1,9 @@
 To do:
 
 - In Home:
+    Navbar:
+    - Navigation style on scroll
+
     Form:
     - Create Form Processing (Back End)
     https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
