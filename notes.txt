@@ -11,6 +11,7 @@ To do:
 - Create Pages for:
     - Portfolio
         - Each segment?
+        - Grid?
         - All files + sort option?
     - About
     - Contact
