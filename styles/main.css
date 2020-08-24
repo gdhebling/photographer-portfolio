@@ -435,6 +435,9 @@ footer .social-media .fa-youtube:hover {
 /* Media Queries
 =============== */
 @media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
   .hero-text h1,
   .hero-text h2 {
     margin: 2rem 0;
@@ -445,6 +448,16 @@ footer .social-media .fa-youtube:hover {
   }
   .hero-text h2 {
     font-size: 0.875rem;
+  }
+  .about-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-content .about-photographer-text {
+    text-align: center;
+    margin: 1rem 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

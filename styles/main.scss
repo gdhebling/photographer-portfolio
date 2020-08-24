@@ -282,8 +282,6 @@ header {
         flex-direction: column;
         text-align: left;
         line-height: 2rem;
-
-
     }
 }
 
@@ -430,9 +428,9 @@ footer {
 
 
 
-    // .nav__links {
-    //     display: none;
-    // }
+    .nav__links {
+        display: none;
+    }
 
     .hero-text h1,
     .hero-text h2 {
@@ -450,7 +448,12 @@ footer {
 
 
 
+    .about-content {
+        flex-direction: column;
 
-
-
+        .about-photographer-text {
+            text-align: center;
+            margin: 1rem 0;
+        }
+    }
 }
