@@ -63,7 +63,7 @@ textarea {
 
 header {
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     justify-content: space-between;
     align-items: center;
@@ -447,13 +447,14 @@ footer {
     }
 
 
+    // ABOUT 
 
     .about-content {
         flex-direction: column;
 
         .about-photographer-text {
             text-align: center;
-            margin: 1rem 0;
+            margin: 2rem 0 0 0;
         }
     }
 }
