@@ -258,8 +258,6 @@ header {
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -449,5 +447,10 @@ footer {
     .hero-text h2 {
         font-size: 0.875rem;
     }
+
+
+
+
+
 
 }
