@@ -45,6 +45,11 @@ img {
   margin: 2.5rem 0;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
 /* Header 
 =============== */
 header {
@@ -227,7 +232,112 @@ header .social-media .fa-youtube:hover {
   margin: 1rem 0;
 }
 
+/* === About === */
+.about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-content .about-photographer-image,
+.about-content .about-photographer-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-content .about-photographer-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-content .about-photographer-text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.about-content .about-photographer-text span {
+  margin: 0.2rem 0;
+}
+
 /* === Contact === */
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 10%;
+  width: 100%;
+}
+
+.form {
+  width: 80%;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background: #ffffff;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 1rem;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form .btn-send {
+  display: inline-block;
+  text-align: center;
+  background: #0088a9;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  min-width: 8rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.form .btn-send:hover {
+  cursor: pointer;
+}
+
 /* === Footer === */
 footer {
   background-color: #002B44;

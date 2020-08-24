@@ -27,9 +27,9 @@
         <nav class="nav">
             <ul class="nav__links">
                 <li><a href="/">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <ul class="social-media">
@@ -56,7 +56,7 @@
 
     <!-- Portfolio Starts -->
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
 
         <h1 class="section-title">
             Portfolio
@@ -84,31 +84,62 @@
         </div>
     </section>
 
-    <section class="about">
+    <!-- About Starts -->
+
+    <section class="about" id="about">
 
         <h1 class="section-title">
             ABOUT
         </h1>
+        <div class="about-content">
+            <div class="about-photographer-image">
+                <img src="./img/architecture-photography.jpg" alt="" class="card__image" width="300" height="400">
+            </div>
+            <div class="about-photographer-text">
+                <span>Hi!</span>
+                <span>Nice to meet you, I'm Guilherme.</span>
+
+                <span>I'm a photographer and videographer based in Oslo, Norway, specialized in weddings and commercial
+                    photography.</span>
+            </div>
+        </div>
 
     </section>
 
-    <section class="contact">
+    <!-- Contact Starts -->
+
+    <section class="contact" id="contact">
         <h1 class="section-title">
             LET'S GET IN TOUCH
         </h1>
 
         <div class="form">
-            <div class="form__text">
-                <p class="form__text__item">
-                    Hi!
-                </p>
-            </div>
-            <form action="">
 
+            <form action="/example.html" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name-text-field" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">E-mail</label>
+                    <br>
+                    <input type="text" name="name-text-field" id="name" placeholder="Enter your e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message"
+                        required></textarea>
+                </div>
 
+                <input class="btn-send" type="submit" value="Submit">
             </form>
+
         </div>
     </section>
+
+    <!-- Footer Starts -->
 
     <footer>
         <p>Follow me on Social Media</p>
@@ -122,3 +153,172 @@
 </body>
 
 </html>
+
+<!-- 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact us</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            color: #666;
+        }
+
+        input,
+        textarea {
+            outline: none;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #5a7233;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-weight: 500;
+        }
+
+        form {
+            position: relative;
+            width: 80%;
+            border-radius: 30px;
+            background: #fff;
+        }
+
+        .form-left-decoration,
+        .form-right-decoration {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 20px;
+            border-radius: 20px;
+            background: #5a7233;
+        }
+
+        .form-left-decoration {
+            bottom: 60px;
+            left: -30px;
+        }
+
+        .form-right-decoration {
+            top: 60px;
+            right: -30px;
+        }
+
+        .form-left-decoration:before,
+        .form-left-decoration:after,
+        .form-right-decoration:before,
+        .form-right-decoration:after {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 20px;
+            border-radius: 30px;
+            background: #fff;
+        }
+
+        .form-left-decoration:before {
+            top: -20px;
+        }
+
+        .form-left-decoration:after {
+            top: 20px;
+            left: 10px;
+        }
+
+        .form-right-decoration:before {
+            top: -20px;
+            right: 0;
+        }
+
+        .form-right-decoration:after {
+            top: 20px;
+            right: 10px;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 80px;
+            left: -55px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #fff;
+        }
+
+        .form-inner {
+            padding: 40px;
+        }
+
+        .form-inner input,
+        .form-inner textarea {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 20px;
+            background: #d0dfe8;
+        }
+
+        .form-inner textarea {
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: none;
+            border-bottom: 4px solid #3e4f24;
+            background: #5a7233;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        button:hover {
+            background: #3e4f24;
+        }
+
+        @media (min-width: 568px) {
+            form {
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" class="decor">
+        <div class="form-left-decoration"></div>
+        <div class="form-right-decoration"></div>
+        <div class="circle"></div>
+        <div class="form-inner">
+            <h1>Contact us</h1>
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message..." rows="5"></textarea>
+            <button type="submit" href="/">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html> -->
