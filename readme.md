@@ -2,18 +2,25 @@
 
 ## The project
 This website was created with the intention of putting into practice some Web Development concepts.  
-I used my freelance work as photographer and filmmaker as an actual real world example.  
-![Website Screenshot](img/readme-website-screenshot.png)
-  
+I used my freelance work as photographer and filmmaker as an actual real world example.
+&nbsp;
+![Website Screenshot](img/readme-website-screenshot.png)[website]
+
+### Deployed website
+You can find the deployed website at:
+https://gdhebling.github.io/photographer-portfolio/
+
 ## The steps
 ### Research
 I started the project researching and looking for inspirations utilizing websites such as Pinterest and Dribbble.
-![My Web Design Board on Pinterest](img/readme-pinterest-board.png)
-  
+&nbsp;
+![My Web Design Board on Pinterest](img/readme-pinterest-board.png)[website]
+&nbsp;
 ### Concept
-Then, with those inspirations in mind, a mockup was made using Figma.  
-![Website Mockup using Figma](img/readme-website-mockup.png)
-  
+Then, with those inspirations in mind, a mockup was made using Figma.
+&nbsp;
+![Website Mockup using Figma](img/readme-website-mockup.png)[website]
+&nbsp;
 ### Coding
 The coding was made from ground-up with no tutorials, as a way to force me into remembering and finding the best alternatives to the issues I might encounter. Some design changes were made as the project was taking shape.  
 p.s.: An extensive use of Google was made during the project! 😂
@@ -30,7 +37,4 @@ Next step will be to learn PHP to implement it on the website.
 The Navbar is still lacking a better responsiveness.  
 One idea is to implement a burger menu on it.
 
-
-### Deployed website
-You can find the deployed website at:
-https://gdhebling.github.io/photographer-portfolio/
+[website]: [https://gdhebling.github.io/photographer-portfolio/]
