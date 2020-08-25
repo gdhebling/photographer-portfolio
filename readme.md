@@ -20,7 +20,7 @@ The coding was made from ground-up with no tutorials, as a way to force me into 
 p.s.: An extensive use of Google was made during the project! 😂
 
 ### Technologies used
-
+HTML5, CSS3, SCSS/Sass, and JavaScript.
 
 ### Deployed website
 You can find the deployed website at:
