@@ -26,6 +26,7 @@ p.s.: An extensive use of Google was made during the project! 😂
 
 ## Technologies and tools used
 HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
+
 <p align="left">
     <a href="https://github.com/gdhebling"><img align="center" alt="HTML5" width="26px"
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a><br /><br />
