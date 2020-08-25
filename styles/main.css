@@ -99,7 +99,7 @@ header .nav__links li {
   padding: 0 2rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .875rem;
+  font-size: .8rem;
   padding: 0 1.5rem;
 }
 
@@ -188,7 +188,7 @@ header .social-media .fa-youtube:hover {
 }
 
 .hero-text h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 900;
   letter-spacing: 0.25rem;
 }
