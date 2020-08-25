@@ -4,7 +4,7 @@
 This website was created with the intention of putting into practice some Web Development concepts.  
 I used my freelance work as photographer and filmmaker as an actual real world example.
 &nbsp;
-![Website Screenshot](img/readme-website-screenshot.png)[website]
+<a href="https://gdhebling.github.io/photographer-portfolio" alt="Website Screenshot">![Website Screenshot](img/readme-website-screenshot.png)</a>
 
 ### Deployed website
 You can find the deployed website at:
