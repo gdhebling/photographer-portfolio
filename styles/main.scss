@@ -159,43 +159,21 @@ header {
         }
     }
 
-    .burger div {
-        width: 24px;
-        height: 2px;
-        background-color: #000;
-        margin: 5px;
+    /* Burger Menu
+=============== */
+
+    .burger {
+        display: none;
+
+        div {
+            width: 24px;
+            height: 2px;
+            background-color: #000;
+            margin: 4px;
+        }
     }
 
 }
-
-
-/* Burger Menu
-=============== */
-
-// .burger {
-//     display: none;
-//     cursor: pointer;
-
-//     div {
-//         width: 25px;
-//         height: 2px;
-//         background-color: rgb(226, 226, 226);
-//         margin: 5px;
-//         transition: all 0.3s ease;
-//     }
-
-
-// }
-
-// @media screen and (max-width: 768px) {
-
-//     .nav__links {
-//         position: absolute;
-//         right: 0px;
-//         height: 92vh;
-//     }
-// }
-
 
 /* Body 
 =============== */
@@ -442,13 +420,28 @@ footer {
 /* Media Queries
 =============== */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
-
+    // Header
 
     .nav__links {
-        display: none;
+        position: absolute;
+        right: 0px;
     }
+
+    .social-media {
+        position: absolute;
+        right: 0px;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    // Hero
 
     .hero-text h1,
     .hero-text h2 {
@@ -464,7 +457,6 @@ footer {
         font-size: 0.875rem;
     }
 
-
     // ABOUT 
 
     .about-content {
@@ -475,4 +467,5 @@ footer {
             margin: 2rem 0 0 0;
         }
     }
+
 }

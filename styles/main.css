@@ -77,6 +77,8 @@ header {
   min-height: 4vh;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  /* Burger Menu
+=============== */
 }
 
 header .logo {
@@ -155,15 +157,17 @@ header .social-media .fa-youtube:hover {
   color: #C31A1E;
 }
 
+header .burger {
+  display: none;
+}
+
 header .burger div {
   width: 24px;
   height: 2px;
   background-color: #000;
-  margin: 5px;
+  margin: 4px;
 }
 
-/* Burger Menu
-=============== */
 /* Body 
 =============== */
 /* === Hero === */
@@ -450,10 +454,18 @@ footer .social-media .fa-youtube:hover {
 
 /* Media Queries
 =============== */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .nav__links {
-    display: none;
+    position: absolute;
+    right: 0px;
   }
+  .social-media {
+    position: absolute;
+    right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
   .hero-text h1,
   .hero-text h2 {
     margin: 2rem 0;
