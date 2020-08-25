@@ -21,19 +21,35 @@ Then, with those inspirations in mind, a mockup was made using Figma.
 <a href="https://gdhebling.github.io/photographer-portfolio" alt="Website Mockup using Figma">![Website Mockup using Figma](img/readme-website-mockup.png)</a>
 
 ### Coding
-The coding was made from ground-up with no tutorials, as a way to force me into remembering and finding the best alternatives to the issues I might encounter. Some design changes were made as the project was taking shape.<br />
+The coding was made from ground-up with no tutorials, as a way to force me into remembering and finding the best alternatives to the issues I might encounter. Some design changes were made as the project was taking shape. <br />
 p.s.: An extensive use of Google was made during the project! 😂
 
 ### Technologies and tools used
-HTML5, CSS3, SCSS/Sass, JavaScript, and Figma.<br />
+HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
+<p align="left">
+    <a href="https://github.com/gdhebling"><img align="center" alt="HTML5" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="CSS3" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="Sass" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="JavaScript" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="Git" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="GitHub" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/gdhebling"><img align="center" alt="Visual Studio Code" width="26px"
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
+</p>
 
 ### Next steps
 **Form:**
-I'm currently using Formspree as a way to collect submissions from the Contact Form.<br />
+I'm currently using Formspree as a way to collect submissions from the Contact Form. <br />
 Next step will be to learn PHP to implement it on the website.
 
 **Responsiveness:**
-The Navbar is still lacking a better responsiveness.<br />
+The Navbar is still lacking a better responsiveness. <br />
 One idea is to implement a burger menu on it.
 
 [website]: [https://gdhebling.github.io/photographer-portfolio/]
