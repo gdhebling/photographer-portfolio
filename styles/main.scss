@@ -65,7 +65,7 @@ textarea {
 
 .scrolling-active {
     box-shadow: 0 2px 1rem rgba(0, 0, 0, .1);
-    height: 6vh;
+    padding: 0.5rem 10%;
 }
 
 
@@ -79,7 +79,7 @@ header {
     width: 100%;
     background-color: #fff;
 
-    height: 8vh;
+    min-height: 4vh;
 
     transition: all 0.3s ease-in-out;
 
@@ -157,6 +157,13 @@ header {
         .fa-youtube:hover {
             color: #C31A1E;
         }
+    }
+
+    .burger div {
+        width: 24px;
+        height: 2px;
+        background-color: #000;
+        margin: 5px;
     }
 
 }
