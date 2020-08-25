@@ -61,11 +61,13 @@ textarea {
 /* Header 
 =============== */
 
-/* Apply styles after scroll */
+/* Styles after scroll */
 
 .scrolling-active {
-    background-color: aqua;
+    box-shadow: 0 2px 1rem rgba(0, 0, 0, .1);
+    height: 6vh;
 }
+
 
 header {
     display: flex;
@@ -76,13 +78,15 @@ header {
     padding: 1rem 10%;
     width: 100%;
     background-color: #fff;
-    border-bottom: 1px solid $greyColor;
 
-    min-height: 6vh;
+    height: 8vh;
+
+    transition: all 0.3s ease-in-out;
+
 
     .logo {
         cursor: pointer;
-        font-size: .875rem;
+        font-size: .875em;
         font-family: $mainFont;
         color: #000;
         text-transform: uppercase;

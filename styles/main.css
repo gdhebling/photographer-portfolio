@@ -52,9 +52,11 @@ textarea {
 
 /* Header 
 =============== */
-/* Apply styles after scroll */
+/* Styles after scroll */
 .scrolling-active {
-  background-color: aqua;
+  -webkit-box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.1);
+  height: 6vh;
 }
 
 header {
@@ -72,13 +74,14 @@ header {
   padding: 1rem 10%;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid #d9d9d9;
-  min-height: 6vh;
+  height: 8vh;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header .logo {
   cursor: pointer;
-  font-size: .875rem;
+  font-size: .875em;
   font-family: "Merriweather Sans", sans-serif;
   color: #000;
   text-transform: uppercase;
