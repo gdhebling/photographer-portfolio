@@ -2,7 +2,8 @@ To do:
 
 - In Home:
     Navbar:
-    - Navigation style on scroll
+    - Responsive menu
+        - Burger Menu?
 
     Form:
     - Create Form Processing (Back End)
