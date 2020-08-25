@@ -53,4 +53,7 @@ Next step will be to learn PHP to implement it on the website.
 The Navbar is still lacking a better responsiveness. <br />
 One idea is to implement a burger menu on it.
 
+**Performance:**
+Study about website optimization and performance to reduce loading time.
+
 [website]: [https://gdhebling.github.io/photographer-portfolio/]
