@@ -4,17 +4,16 @@
 This website was created with the intention of putting into practice some Web Development concepts.  
 I used my freelance work as photographer and filmmaker as an actual real world example.  
 ![Website Screenshot](img/readme-website-screenshot.png)
-
+<br/>
 ## The steps
 ### Research
 I started the project researching and looking for inspirations utilizing websites such as Pinterest and Dribbble.
-With that
 ![My Web Design Board on Pinterest](img/readme-pinterest-board.png)
-
+<br/>
 ### Concept
 Then, with those inspirations in mind, a mockup was made using Figma.  
 ![Website Mockup using Figma](img/readme-website-mockup.png)
-
+<br/>
 ### Coding
 The coding was made from ground-up with no tutorials, as a way to force me into remembering and finding the best alternatives to the issues I might encounter. Some design changes were made as the project was taking shape.  
 p.s.: An extensive use of Google was made during the project! 😂
@@ -23,7 +22,14 @@ p.s.: An extensive use of Google was made during the project! 😂
 HTML5, CSS3, SCSS/Sass, and JavaScript.
 
 ### Next steps
-I'm currently using 
+**Form:**
+I'm currently using Formspree as a way to collect submissions from the Contact Form.  
+Next step will be to learn PHP to implement it on the website.
+
+**:**
+The Navbar is still lacking a better responsiveness.  
+One idea is to implement a burger menu on it.
+
 
 ### Deployed website
 You can find the deployed website at:
