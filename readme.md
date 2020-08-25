@@ -24,7 +24,7 @@ Then, with those inspirations in mind, a mockup was made using Figma.
 The coding was made from ground-up with no tutorials, as a way to force me into remembering and finding the best alternatives to the issues I might encounter. Some design changes were made as the project was taking shape. <br />
 p.s.: An extensive use of Google was made during the project! 😂
 
-### Technologies and tools used
+## Technologies and tools used
 HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
 <p align="left">
     <a href="https://github.com/gdhebling"><img align="center" alt="HTML5" width="26px"
@@ -43,7 +43,7 @@ HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
 </p>
 
-### Next steps
+## Next steps
 **Form:**
 I'm currently using Formspree as a way to collect submissions from the Contact Form. <br />
 Next step will be to learn PHP to implement it on the website.
