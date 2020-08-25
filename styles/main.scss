@@ -7,7 +7,7 @@ sans-serif;
 $bodyFontColor: #000000;
 $darkColor: #002B44;
 $accentColor: #0088a9;
-
+$greyColor: #d9d9d9;
 /* Global Styles 
 =============== */
 
@@ -61,15 +61,22 @@ textarea {
 /* Header 
 =============== */
 
+/* Apply styles after scroll */
+
+.scrolling-active {
+    background-color: aqua;
+}
+
 header {
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 10%;
     width: 100%;
     background-color: #fff;
+    border-bottom: 1px solid $greyColor;
 
     min-height: 6vh;
 
@@ -315,7 +322,7 @@ header {
         padding: 0.5rem;
         border: none;
         background: #ffffff;
-        border: 1px solid #d9d9d9;
+        border: 1px solid $greyColor;
         border-top: 1px solid transparent;
         border-left: 1px solid transparent;
         border-right: 1px solid transparent;
@@ -330,7 +337,7 @@ header {
     textarea:active,
     input:focus,
     textarea:focus {
-        border: 1px solid #d9d9d9;
+        border: 1px solid $greyColor;
     }
 
     textarea {
