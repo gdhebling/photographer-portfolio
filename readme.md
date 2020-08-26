@@ -45,15 +45,15 @@ HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
 </p>
 
 ## Next steps
-**Form:**
+**Form:** <br />
 I'm currently using Formspree as a way to collect submissions from the Contact Form. <br />
 A step will be to learn PHP to implement it on the website.
 
-**Responsiveness:**
+**Responsiveness:** <br />
 The Navbar is still lacking better responsiveness. <br />
 One idea is to implement a burger menu on it.
 
-**Performance:**
+**Performance:** <br />
 ✔ Study about website optimization and performance to reduce loading time. <br />
 ➡ Website images downsized to optimize load time. **Result**: **Google Lighthouse's Audit Score** went from 65 to 75.
 
