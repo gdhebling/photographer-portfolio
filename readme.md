@@ -54,8 +54,8 @@ The Navbar is still lacking better responsiveness. <br />
 One idea is to implement a burger menu on it.
 
 **Performance:**
-Study about website optimization and performance to reduce loading time.
--> Website images downsized to optimize load time. Result: Google Lighthouse's Audit Score went from 65 to 75.
+Study about website optimization and performance to reduce loading time. <br /> ✔
+➡ Website images downsized to optimize load time. **Result**: **Google Lighthouse's Audit Score** went from 65 to 75.
 
 ## That's it!
 Thanks for reading! 😀 <br />
