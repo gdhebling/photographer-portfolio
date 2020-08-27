@@ -46,7 +46,7 @@ HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
 
 ## Next steps
 **Responsiveness:** <br />
-The Navbar is still lacking better responsiveness. <br />
+The Navbar was lacking responsiveness. <br />
 ✔ Burger menu implemented for medium and small screen sizes. <br />
 Next step is to study about how to close the menu when an item or "outside" of menu is clicked.
 
