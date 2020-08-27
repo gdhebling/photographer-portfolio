@@ -65,7 +65,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -192,6 +192,8 @@ header .burger div {
   height: 2px;
   background-color: #000;
   margin: 4px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 /* Body 
@@ -486,9 +488,10 @@ footer .social-media .fa-youtube:hover {
   }
   header .nav__links {
     position: absolute;
+    z-index: -1;
     right: 0px;
     height: 96vh;
-    top: 4vh;
+    top: 5vh;
     background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -503,6 +506,10 @@ footer .social-media .fa-youtube:hover {
     width: 50vw;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   }
   header .nav__links li {
     opacity: 0;
@@ -512,9 +519,8 @@ footer .social-media .fa-youtube:hover {
     font-size: 1.2rem;
     line-height: 3;
   }
-  header .nav__links .social-media {
-    position: absolute;
-    margin: 0 auto;
+  header .social-media {
+    display: none;
   }
   header .burger {
     display: block;
@@ -536,5 +542,45 @@ footer .social-media .fa-youtube:hover {
   .form {
     width: 90%;
   }
+}
+
+@-webkit-keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 3px);
+          transform: rotate(-45deg) translate(-5px, 3px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -4px);
+          transform: rotate(45deg) translate(-5px, -4px);
 }
 /*# sourceMappingURL=main.css.map */
