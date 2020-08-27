@@ -45,13 +45,14 @@ HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
 </p>
 
 ## Next steps
+**Responsiveness:** <br />
+The Navbar is still lacking better responsiveness. <br />
+✔ Burger menu implemented for medium and small screen sizes. <br />
+Next step is to study about how to close the menu when an item or "outside" of menu is clicked.
+
 **Form:** <br />
 I'm currently using Formspree as a way to collect submissions from the Contact Form. <br />
 A step will be to learn PHP to implement it on the website.
-
-**Responsiveness:** <br />
-The Navbar is still lacking better responsiveness. <br />
-One idea is to implement a burger menu on it.
 
 **Performance:** <br />
 ✔ Study about website optimization and performance to reduce loading time. <br />
