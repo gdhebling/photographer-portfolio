@@ -90,9 +90,11 @@ header .logo {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.1rem;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
-header .logo:active {
+header .logo:hover, header .logo:active {
   outline: none;
   color: #0088a9;
 }
@@ -110,15 +112,37 @@ header .nav__links li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   color: #000;
+  position: relative;
 }
 
-header .nav__links li a:hover {
+header .nav__links li a:hover, header .nav__links li a:focus {
   color: #0088a9;
 }
 
 header .nav__links li a:active {
   outline: none;
   color: #0088a9;
+}
+
+header .nav__links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+header .nav__links li a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 header .social-media {
