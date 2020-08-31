@@ -57,6 +57,7 @@ A step will be to learn PHP to implement it on the website.
 **Performance:** <br />
 ✔ Study about website optimization and performance to reduce loading time. <br />
 ➡ Website images downsized to optimize load time. **Result**: **Google Lighthouse's Audit Score** went from 65 to 75.
+➡ Still looking for other ways to optimize load time.
 
 ## That's it!
 Thanks for reading! 😀 <br />
