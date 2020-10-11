@@ -2,7 +2,8 @@
 
 ## The project
 Website created to put into practice some Web Development concepts.  
-I used my freelance work as a photographer and filmmaker as an actual real-world example.
+I used my freelance work as a photographer and filmmaker as an actual real-world example.  
+This website structure was reused and improved for my Developer Portfolio at https://gdhebling.com 
 <br /><br />
 <a href="https://gdhebling.github.io/photographer-portfolio" alt="Website Screenshot">![Website Screenshot](img/readme-website-screenshot.jpg)</a>
 
