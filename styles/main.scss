@@ -259,6 +259,13 @@ header {
 
     img {
         object-fit: cover;
+
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
     }
 }
 

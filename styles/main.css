@@ -269,6 +269,13 @@ header .burger div {
 .photography-segments img {
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.photography-segments img:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .card {
