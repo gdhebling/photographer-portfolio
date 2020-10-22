@@ -450,8 +450,51 @@ footer {
 .photo-grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     padding: 0 3rem;
+}
+
+.btn {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4rem;
+    min-width: 8rem;
+    text-decoration: none;
+    font-size: 1rem;
+
+    transition: all 0.1s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+    }
+}
+
+.btn-primary {
+    background: $accentColor;
+    color: #fdfdfd;
+
+
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+        outline: none;
+        background-color: $darkColor;
+    }
+}
+
+.cta__text {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+
+    .btn {
+        margin: 0 1rem;
+    }
 }
 
 
