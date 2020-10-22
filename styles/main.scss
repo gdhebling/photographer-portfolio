@@ -441,6 +441,19 @@ footer {
 
 }
 
+/* === Subpages === */
+
+.sub-page {
+    margin-top: 10vh;
+}
+
+.photo-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding: 0 3rem;
+}
+
 
 
 /* Media Queries

@@ -42,7 +42,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
 
 input,
@@ -478,6 +478,20 @@ footer .social-media .fa-instagram:hover {
 
 footer .social-media .fa-youtube:hover {
   color: #C31A1E;
+}
+
+/* === Subpages === */
+.sub-page {
+  margin-top: 10vh;
+}
+
+.photo-grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 0 3rem;
 }
 
 /* Media Queries
