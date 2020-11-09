@@ -49,16 +49,13 @@ HTML5, CSS3, SCSS/Sass, JavaScript, and Figma. <br />
 **Responsiveness:** <br />
 The Navbar was lacking responsiveness. <br />
 ✔ Burger menu implemented for medium and small screen sizes. <br />
-Next step is to study about how to close the menu when an item or "outside" of menu is clicked.
 
 **Form:** <br />
 I'm currently using Formspree as a way to collect submissions from the Contact Form. <br />
-A step will be to learn PHP to implement it on the website.
 
 **Performance:** <br />
 ✔ Study about website optimization and performance to reduce loading time. <br />
 ➡ Website images downsized to optimize load time. **Result**: **Google Lighthouse's Audit Score** went from 65 to 75.
-➡ Still looking for other ways to optimize load time.
 
 ## That's it!
 Thanks for reading! 😀 <br />
