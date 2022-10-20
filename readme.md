@@ -61,15 +61,6 @@ I'm currently using Formspree as a way to collect submissions from the Contact F
 Thanks for reading! 😀 <br />
 I'm Guilherme. Front-End Web Developer. <br />
 
-<p align="left">
-
-You can find me on: <br />
-    
-<a href="https://www.linkedin.com/in/gdhebling/"><img alt="linkedin" width="26px" src="https://image.flaticon.com/icons/svg/1383/1383262.svg" /></a>
-    &nbsp;&nbsp;
-<a href="https://twitter.com/gdhebling"><img alt="twitter" width="26px" src="https://image.flaticon.com/icons/svg/1383/1383265.svg" /></a>
-
-</p>
 
 
 [website]: [https://gdhebling.github.io/photographer-portfolio/]
